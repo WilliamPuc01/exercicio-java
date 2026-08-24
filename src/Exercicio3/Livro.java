@@ -1,30 +1,49 @@
 package Exercicio3;
 
 public class Livro {
-    public String titulo;
-    public String autor;
-    public static int Totalalugado = 0;
+    private static final int LIMITE_ALUGUEL = 5;
 
-    public Livro(String titulo, String autor){
+    private final String titulo;
+    private final String autor;
+    private int quantidadeAlugada;
+
+    public Livro(String titulo, String autor) {
+        if (titulo == null || titulo.isBlank()) {
+            throw new IllegalArgumentException("O título não pode ser vazio");
+        }
+        if (autor == null || autor.isBlank()) {
+            throw new IllegalArgumentException("O autor não pode ser vazio");
+        }
         this.titulo = titulo;
         this.autor = autor;
+        this.quantidadeAlugada = 0;
     }
 
-
-    public void alugar(int qtd)throws Exception{
-        if(qtd <= 0)throw new Exception("O valor não pode ser zero ou negativo");
-
-        if( qtd > 5){
-            System.out.println("Não pode alugar mais que 5 livros");
-        }else{
-            Totalalugado += qtd;
+    public void alugar(int qtd) {
+        if (qtd <= 0) {
+            throw new IllegalArgumentException("A quantidade deve ser positiva");
         }
+        if (quantidadeAlugada + qtd > LIMITE_ALUGUEL) {
+            throw new IllegalStateException(
+                    "Não é possível alugar mais que " + LIMITE_ALUGUEL + " unidades deste livro");
+        }
+        quantidadeAlugada += qtd;
     }
 
-    public String toString(){
-        return "Titulo: " + titulo + "  Autor: " + autor + "  Total Alugado: " + Totalalugado;
+    public String getTitulo() {
+        return titulo;
     }
 
+    public String getAutor() {
+        return autor;
+    }
 
+    public int getQuantidadeAlugada() {
+        return quantidadeAlugada;
+    }
 
+    @Override
+    public String toString() {
+        return "Título: " + titulo + " | Autor: " + autor + " | Alugados: " + quantidadeAlugada;
+    }
 }
