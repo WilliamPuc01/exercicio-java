@@ -1,6 +1,11 @@
-package Exercicio10;
+
 
 import java.util.List;
+
+import Exercicio10.Estoque;
+import Exercicio10.Produto;
+import Exercicio10.ProdutoNaoPerecivel;
+import Exercicio10.ProdutoPerecivel;
 
 public class Main {
     public static void main(String[] args) {
