@@ -9,7 +9,7 @@ Correções são bem-vindas — fique à vontade para abrir uma *issue* ou manda
 O objetivo é chegar a **45 exercícios**. Quando bater a meta, o desafio está concluído.
 
 ```
-Progresso: ████░░░░░░░░░░░░░░░░  8 / 45  (18%)
+Progresso: █████░░░░░░░░░░░░░░░  12 / 45  (27%)
 ```
 
 > Ao concluir um exercício, atualizo a barra e o contador acima.
@@ -26,6 +26,10 @@ Progresso: ████░░░░░░░░░░░░░░░░  8 / 45 
 | 06 | `Grupo` / `Pessoa` | Estatísticas de altura de um grupo | ✅ |
 | 07 | `Retangulo` | Área e perímetro de um retângulo (encapsulamento) | ✅ |
 | 08 | `Aluno` / `Turma` | Média das notas de uma turma | ✅ |
+| 09 | `FilaAtendimento` / `Cliente` / `Prioridade` | Fila de atendimento por prioridade (enum) e ordem de chegada | ✅ |
+| 10 | `Estoque` / `Produto` | Controle de estoque com classe abstrata, herança e polimorfismo | ✅ |
+| 11 | `Estoque` / `Medicamento` | Estoque de medicamentos com `Map` e controle de validade | ✅ |
+| 12 | `Vetor` / `Produto` | Vetores: array de produtos e média de preços | ✅ |
 
 **Status:** ✅ concluído · 🔄 em andamento · ⬜ pendente
 
