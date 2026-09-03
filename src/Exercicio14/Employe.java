@@ -11,9 +11,8 @@ public class Employe {
         this.salary = salary;
     }
 
-    public double salaryGrowth(double percent){
-        double aumento = this.salary * (percent/100.00);
-        return this.salary + aumento;
+    public void salaryGrowth(double percent){
+        salary += salary * percent / 100.0;
     }
 
     public int getId() {
