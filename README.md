@@ -9,7 +9,7 @@ Correções são bem-vindas — fique à vontade para abrir uma *issue* ou manda
 O objetivo é chegar a **45 exercícios**. Quando bater a meta, o desafio está concluído.
 
 ```
-Progresso: █████░░░░░░░░░░░░░░░  12 / 45  (27%)
+Progresso: ███████████░░░░░░░░░  25 / 45  (56%)
 ```
 
 > Ao concluir um exercício, atualizo a barra e o contador acima.
@@ -30,6 +30,19 @@ Progresso: █████░░░░░░░░░░░░░░░  12 / 45
 | 10 | `Estoque` / `Produto` | Controle de estoque com classe abstrata, herança e polimorfismo | ✅ |
 | 11 | `Estoque` / `Medicamento` | Estoque de medicamentos com `Map` e controle de validade | ✅ |
 | 12 | `Vetor` / `Produto` | Vetores: array de produtos e média de preços | ✅ |
+| 13 | `Pensionato` | Cadastro de hóspedes em quartos usando array indexado | ✅ |
+| 14 | `Employe` / `ConhecimentoLista` | Manipulação de `List`: inserir, remover, buscar e filtrar com streams | ✅ |
+| 15 | `Matriz` | Matrizes: diagonal principal, contagem de negativos e vizinhos de um valor | ✅ |
+| 16 | `DataHora` | API de data e hora (`LocalDate`, `LocalDateTime`, `Instant`): parse e formatação | ✅ |
+| 17 | `Order` / `Client` / `OrderItem` | Sistema de pedidos com composição, enum de status e cálculo de total | ✅ |
+| 18 | `Worker` / `Department` / `HourContract` | Trabalhador com lista de contratos por hora e cálculo de renda mensal | ✅ |
+| 19 | `Post` / `Comment` | Publicação com lista de comentários (composição) | ✅ |
+| 20 | `Account` / `SavingsAccount` / `BusinessAccount` | Herança, upcasting/downcasting, `instanceof` e polimorfismo | ✅ |
+| 21 | `Employee` / `OutsourcedEmployee` | Herança e polimorfismo no cálculo de pagamento | ✅ |
+| 22 | `Product` / `ImportedProduct` / `UsedProduct` | Polimorfismo com etiqueta de preço por tipo de produto | ✅ |
+| 23 | `Shape` / `Circle` / `Rectangle` | Classe abstrata e polimorfismo no cálculo de áreas (enum de cor) | ✅ |
+| 24 | `Program` | Tratamento de exceções (`try` / `catch` / `finally`) | ✅ |
+| 25 | `Cliente` / `Pedido` / `Produto` | Pedido de cafeteria com composição e tratamento de exceções | ✅ |
 
 **Status:** ✅ concluído · 🔄 em andamento · ⬜ pendente
 
